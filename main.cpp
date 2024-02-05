@@ -107,7 +107,7 @@ float get_percent_noise(void);
 float noise(void);
 
 int main() {
-    device.baud(9600);
+    device.baud(115200);
 
 // Program needs terminal emulator for keyboard input
     kbd_IO();
